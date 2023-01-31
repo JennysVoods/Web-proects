@@ -288,7 +288,8 @@ main {
   cursor: pointer;
 }
 /*  */
-.info-block {
+.info-block,
+.contacts {
   background: #222224;
 }
 
@@ -331,8 +332,19 @@ main {
   line-height: 17px;
   color: #fbfbfb;
 }
+
+.subscription {
+  background: linear-gradient(
+      rgba(244, 244, 244, 0.7),
+      rgba(244, 244, 244, 0.7)
+    ),
+    url(./img/bottombackground.png);
+  height: 448px;
+  background-size: 100%;
+}
+
 /*  */
-/*  */
+
 /* Адаптив */
 
 @media (max-width: 768px) {
