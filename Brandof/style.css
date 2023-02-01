@@ -341,9 +341,111 @@ main {
     url(./img/bottombackground.png);
   height: 448px;
   background-size: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 100px;
 }
 
-/*  */
+.subscription_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 360px;
+  gap: 30px;
+}
+
+.subscription_text p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+}
+.subscription_text p,
+.subscription_forms h2,
+.subscription_forms h3 {
+  color: #222224;
+}
+
+.subscription_forms {
+  text-align: center;
+  width: 356px;
+}
+
+.subscription_forms h2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.subscription_forms h3 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 32px;
+}
+
+.form_email {
+  display: flex;
+}
+
+.form_email input,
+.form_button {
+  font-weight: 400;
+  font-size: 14px;
+  height: 49px;
+  line-height: 17px;
+  outline: none;
+  border: none;
+}
+
+.form_email input {
+  color: #222224;
+  background: #e1e1e1;
+  width: 256px;
+  padding-left: 22px;
+  border-radius: 25px 0 0 25px;
+  opacity: 0.67;
+}
+
+.form_button {
+  color: #ffffff;
+  background: #f16d7f;
+  width: 100px;
+  cursor: pointer;
+  border-radius: 0 25px 25px 0;
+}
+
+.wrapper_contacts {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 230px;
+  margin-left: 235px;
+  height: 79px;
+  align-items: center;
+}
+
+.wrapper_contacts h6 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fbfbfb;
+}
+
+.links__social {
+  display: flex;
+  gap: 7.28px;
+}
+
+.links__social-wrapper a {
+  display: block;
+  height: 32px;
+  width: 31.45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+}
 
 /* Адаптив */
 
